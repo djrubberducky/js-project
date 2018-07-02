@@ -10,12 +10,12 @@ function solveQuadr(A, B, C){
     if (D > 0) {
         x1 = (-B + Math.sqrt(D)) / (2 * A);
         x2 = (-B - Math.sqrt(D)) / (2 * A);
-        return "x1: " + x1 + ";  x2: " + x2;
+        return alert "x1: " + x1 + ";  x2: " + x2;
     } else if (D < 0){
         x = -B / (2 * A);
-        return = "x1: " + x1;
+        return alert "x1: " + x1;
     }
-    else if (D < 0) result.innerText = "result: " + D;
+    else if (D < 0) return alert "result: " + D;
 }
 function calcD(A, B, C){
     return (b*b) - (4 * A* C);
